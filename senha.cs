@@ -23,7 +23,7 @@ public class Running{
             a.aberto(false);
         }
         if(a.senha == a.senhaCriada){
-            Console.WriteLine("Vault open!");
+            Console.WriteLine("Cofre aberto!");
             a.aberto(true);
         }
     }
