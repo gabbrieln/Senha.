@@ -1,29 +1,5 @@
 using System;
-// class OP{
-//     static void Main(){
-//         int idade = 0;
-//         int qtdanos = 0;
-//         int ano = 2021;
-//         Console.WriteLine("Digite sua idade");
-//         idade = Convert.ToInt32(Console.ReadLine());
-//         Console.WriteLine("Sua idade ano que vem será {0}", idade + 1);
-//         Console.WriteLine("Agora me diga daqui quantos anos você quer saber sua idade");
-//         qtdanos = Convert.ToInt32(Console.ReadLine());
-//         Console.WriteLine("Sua idade daqui {0} anos será {1} no ano de {2}", qtdanos, idade + qtdanos, qtdanos + ano);
-//     }
-//}
-// class wa{
-//     static void Main(){
-//         string a = "";
-//         Console.WriteLine("Digite seu nome");
-//         a = Console.ReadLine();
-//         Console.WriteLine("Todos menos o primeiro caractere {0}", a.Substring(1));
-//         Console.WriteLine("Os três primeiros caracteres {0}", a.Substring(0, 3));
-//         Console.WriteLine("Os três últimos {0}", a.Substring(a.Length - 3, 3));
-//         Console.WriteLine("Apenas o último {0}", a.Substring(a.Length - 1, 1));
-//         Console.WriteLine("Apenas o terceiro elemento {0}", a.Substring(2, 1));
-//     }
-class Exxecution{
+class Execution{
     static void Main(){
         int a, b, c;
         Console.WriteLine("Digite um número");
