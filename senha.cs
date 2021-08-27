@@ -21,6 +21,13 @@ public class Running{
             Console.WriteLine("Senha inválida, tente novamente.");
             a.senha = Convert.ToInt32(Console.ReadLine());
             a.aberto(false);
+            
+            if (a.senhaCriada != a.senha){
+            i++;
+            if(i == 5 ){
+                Console.WriteLine("Cuidado, você pode bloquear seu telefone caso tente mais vezes");
+                }
+            }
         }
         if(a.senha == a.senhaCriada){
             Console.WriteLine("Cofre aberto!");
