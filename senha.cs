@@ -25,7 +25,7 @@ public class Running{
             if (a.senhaCriada != a.senha){
             i++;
             if(i == 5 ){
-                Console.WriteLine("Cuidado, você pode bloquear seu telefone caso tente mais vezes");
+                Console.WriteLine("Cuidado, você corre o risco de bloquear caso erre a senha muitas vezes");
                 }
             }
         }
