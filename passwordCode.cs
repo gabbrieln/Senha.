@@ -25,7 +25,7 @@ public class Running{
             if (a.createdPassword != a.password){
             i++;
             if(i == 5 ){
-                Console.WriteLine("Be careful, you can block the device if you keep trying many time.");
+                Console.WriteLine("Be careful, you can block the device if you keep trying many times.");
                 }
             }
         }
