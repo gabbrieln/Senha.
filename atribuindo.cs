@@ -9,6 +9,6 @@ class Pessoa1{
         Console.WriteLine("Sua idade ano que vem será {0}", idade + 1);
         Console.WriteLine("Agora me diga daqui quantos anos você quer saber sua idade");
         qtdanos = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Sua idade daqui {0} anos será {1} no ano de {2}", qtdanos, idade + qtdanos, qtdanos + ano);
+        Console.WriteLine("Sua idade daqui {0} anos será {1} no ano de {2}", qtdanos, idade + qtdanos, qtdanos  ano);
     }
 }
